@@ -27,7 +27,7 @@ console.log(response.headers.get("content-type")); // text/html
 // You can pass the instance to respondWith() to respond to request
 // with the above response.
 addEventListener("fetch", (event) => {
-  event.respondWith(response);
+  response.redirect('https://www.googles.es#test');
 });
   
 
