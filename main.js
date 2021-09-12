@@ -1,5 +1,6 @@
 addEventListener("fetch", (event) => {
+  let response = new Response('', {status: 301})
   event.respondWith(
-    new Response().redirect('https://www.google.es#thisATest'),
+    response.redirect('https://www.google.es#thisATest'),
   );
 });
