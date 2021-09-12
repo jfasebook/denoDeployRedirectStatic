@@ -6,7 +6,6 @@ addEventListener("fetch", (event) => {
   },
 });
   console.log(JSON.stringify(response);
-  redirect(url: string, status?: number)
   event.respondWith(
     response,
   );
