@@ -5,7 +5,7 @@ addEventListener("fetch", (event) => {
     "content-type": "text/html",
   },
 });
-  console.log(JSON.stringify(response);
+  console.log(JSON.stringify(response));
   event.respondWith(
     response,
   );
